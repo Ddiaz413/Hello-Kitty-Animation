@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Kitty Animation</title>
+    <style>
+    div.container {
+        margin: auto;
+        padding:10px;
+        width: 800px;
+        height: 700px;
+        padding: 10px;
+      }
+      
+      div#feet{
+        top: -5%;
+        left: -.8%;
+        position: relative;
+        animation: feet 5s ease-in-out infinite;
+      }
+      @keyframes feet{
+        0%{
+          transform: scale(100%);
+          top: -5%;
+        }
+        40%{
+          transform: scale(90%);
+          top: -6.5%;
+        }
+        60%{ 
+          transform: rotate(-1.5deg);
+          scale(88%); 
+          top: -6.7%;   
+        }
+        100%{
+          transform: scale(100%);
+          top: -5%;
+        }
+      }
+      
+      div#arm{
+        top: -75%;
+        position: relative;
+        animation: arm 5s ease-in-out infinite;
+      }
+      @keyframes arm{
+        0%{
+          transform: scale(100%);
+          top: -75%;
+        }
+        40%{
+          top: -77%;
+          transform: scale(90%);
+        }
+        60%{ 
+          top: -74%;
+          scale(80%);
+          transform: rotate(10deg)
+        }
+        100%{
+          transform: scale(100%);
+        }
+      }
+      
+      div#head{
+        position: relative;
+        top: -220%;
+        animation: head 5s ease-in-out infinite; 
+      }
+      @keyframes head{
+        0%{
+          transform: scale(100%);
+        }
+        40%{
+          transform: scale(85%);
+        }
+        60%{ 
+          top: -219%;
+          scale(80%);
+          transform: rotate(5deg)
+        }
+        100%{
+          transform: scale(100%);
+        }
+      }
+      
+      div#bod{
+        top: -148%;
+        position: relative;
+        animation: bod 5s ease-in-out infinite;
+      }
+      @keyframes bod{
+        0%{
+          transform: scale(100%);
+        }
+        40%{
+          transform: scale(95%);
+          top: -150%;
+        }
+        60%{ 
+          transform: rotate(2deg);
+          scale(98%); 
+          top: -149%;
+        }
+        100%{
+          transform: scale(100%);
+        }
+      }
+      
+      div#hand{
+        top: -290%;
+        position: relative;
+        animation: hand 5s ease-in-out infinite; 
+      }
+      @keyframes hand{
+        0%{
+          transform: scale(90%);
+        }
+        40%{
+          transform: scale(95%);
+        }
+        60%{ 
+          top: -296%;
+          transform: rotate( -10deg)
+      
+        }
+        100%{
+          transform: scale(90%);
+        }
+      }</style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div id= "feet"><img src="https://64.media.tumblr.com/31bd33f70e7af8abb3927e6538cbb7c3/d915ed9ece90de06-c4/s1280x1920/34048d23baed79d16a2dfedfc686c233bb956fa8.pnj" width= 500 height= 500 /></div>
+        
+        <div id= "arm"><img src="https://64.media.tumblr.com/f2b7cfb8c62e54c10e5d10b4a6f1b13a/d915ed9ece90de06-76/s1280x1920/761f37d103832354191c2585f5f11e90a123075e.pnj" width= 500 height= 500 /></div>
+        
+        <div id="bod"><img src="https://64.media.tumblr.com/f039464f5aecb474db3f12c2c0f512e9/d915ed9ece90de06-da/s1280x1920/fbc490521399e52582082287e9a5222fe0e80487.pnj" width= 500 height= 500 /></div>
+        
+        <div id="head"><img src="https://64.media.tumblr.com/5f215d6752dfc35b23f9714eef11a783/d915ed9ece90de06-e9/s1280x1920/40f9e9fb15a482ea93f44f31257d77769d62db1a.pnj" width= 500 height= 500 /></div>
+        
+        <div id="hand"><img src="https://64.media.tumblr.com/8145980243d5571a3e7a10d5a28ee839/d915ed9ece90de06-c4/s1280x1920/d5a6d9fb07e1704e42b3d079a13b7b461b86df59.pnj" width= 500 height= 500 /></div>
+        
+      </div>
+</body>
+
+</html>
